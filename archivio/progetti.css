@@ -1,0 +1,70 @@
+@font-face { font-family: lato; src: url('font/Lato-Regular.ttf'); }
+* {
+ font-family: lato;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+  padding: 1em;
+}
+
+#tabella {
+  flex: 94;
+}
+
+#scritta {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 35px;
+  flex: 3;
+}
+
+#vuotosx {
+  flex: 3;
+}
+
+table {
+  font-family: arial, sans-serif;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+td, th {
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+
+.border-none {
+  border-collapse: collapse;
+  border: none;
+}
+
+.border-none td {
+  border: 1px solid black;
+}
+
+.border-none tr:first-child td {
+  border-top: none;
+}
+
+.border-none tr:last-child td {
+  border-bottom: none;
+}
+
+.border-none tr td:first-child {
+  border-left: none;
+}
+
+.border-none tr td:last-child {
+  border-right: none;
+}
